@@ -1,0 +1,183 @@
+#ss_app
+{
+	text-align: center;
+}
+
+.warning_note
+{
+	display: none;
+}
+
+#measure2_value
+{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+#measure1_wrapper, #measure2_wrapper
+{
+	background-color: white;
+	opacity: 0.8;
+}
+
+#measure1_wrapper>*, #measure2_wrapper>*
+{
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+#arrow
+{
+	font-size: 80px;
+}
+
+.group_title
+{
+	font-weight: bold;
+}
+
+.grouped_item
+{
+	padding-left: 12px;
+}
+
+.grouped_item:hover
+{
+	background-color: #0080ff;
+	color: white;
+}
+
+.custom-combobox
+{
+    display: inline-block;
+}
+  
+.custom-combobox-toggle
+{
+	display: inline-block;
+    padding: 19px;
+}
+
+.custom-combobox-input
+{
+	margin: 0;
+	padding: 5px 10px;
+}
+
+#measure1_measures+span input
+{
+	width: 100px;
+}
+
+#measure1_sweeteners+span input, #measure2_sweeteners+span input
+{
+	width: 400px;
+}
+
+.main
+{
+	width: 100%;
+}
+
+aside.sidebar.sidebar-primary
+{
+	display: none;
+}
+
+div.post-header
+{
+	display: none;
+}
+
+.ui-spinner input
+{
+	border: none !important;
+	margin: 0;
+}
+
+div.post-container
+{
+	padding: 40px 10px 10px;
+}
+
+#disclaimer
+{
+	font-size: 0.8em;
+	margin-top: 40px;
+}
+
+#xylitol_warning
+{
+	background: #cc0000;
+}
+
+div.warning_note
+{
+	width: 96%;
+	color: white;
+	margin: 40px auto 0;
+	padding: 6px;
+	background: #a4a0c0;
+}
+
+.swap
+{
+	padding: 18px;
+}
+
+.swap .ui-icon:first-child
+{
+	left: 40%;
+}
+
+.swap .ui-icon:last-child
+{
+	left: 60%;
+}
+
+.ui-menu
+{
+	max-height: 400px;
+	overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#bottom_app_ad
+{
+	height: 90px;
+    width: 728px;
+    text-align: center;
+	margin: 10px auto;
+}
+
+@font-face
+{
+	font-family: 'riffic-bold';
+    src: url('riffic-bold-webfont.woff2') format('woff2'),
+         url('riffic-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#site-title
+{
+	font-size: 80px;
+	font-family: riffic-bold;
+	font-weight: normal;
+	color: white;
+	text-shadow:
+       3px 3px 0 #888888,
+     -1px -1px 0 #888888,  
+      1px -1px 0 #888888,
+      -1px 1px 0 #888888,
+       1px 1px 0 #888888,
+	   2px 1px 0 #000;
+}
+
+.menu-primary a
+{
+	padding: 10px 16px;
+	font-weight: normal;
+	font-size: 15px;
+	background-color: #b09375;
+}
